@@ -15,3 +15,5 @@ public struct RemoteConfig<T: Any> {
         self.remoteConfigKey = key
     }
 }
+
+// let remoteConfig = RemoteConfig<Bool>(for: .enableCart)
