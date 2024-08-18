@@ -11,8 +11,8 @@
 		CBE67E852C7247DB00F18455 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE67E842C7247DB00F18455 /* MainView.swift */; };
 		CBE67E872C7247DD00F18455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE67E862C7247DD00F18455 /* Assets.xcassets */; };
 		CBE67E8A2C7247DD00F18455 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE67E892C7247DD00F18455 /* Preview Assets.xcassets */; };
-		CBE67E942C72509600F18455 /* PropertyWrapperTrend in Frameworks */ = {isa = PBXBuildFile; productRef = CBE67E932C72509600F18455 /* PropertyWrapperTrend */; };
 		CBE67E982C72511200F18455 /* PropertyWrapperTrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE67E972C72511200F18455 /* PropertyWrapperTrendView.swift */; };
+		CBE67E9C2C725D1000F18455 /* PropertyWrapperTrend in Frameworks */ = {isa = PBXBuildFile; productRef = CBE67E9B2C725D1000F18455 /* PropertyWrapperTrend */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,8 @@
 		CBE67E842C7247DB00F18455 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CBE67E862C7247DD00F18455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBE67E892C7247DD00F18455 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CBE67E912C72485900F18455 /* PropertyWrapperTrend */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PropertyWrapperTrend; path = SwiftTrends/PropertyWrapperTrend; sourceTree = SOURCE_ROOT; };
 		CBE67E972C72511200F18455 /* PropertyWrapperTrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperTrendView.swift; sourceTree = "<group>"; };
+		CBE67E9A2C725CE500F18455 /* PropertyWrapperTrend */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PropertyWrapperTrend; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE67E942C72509600F18455 /* PropertyWrapperTrend in Frameworks */,
+				CBE67E9C2C725D1000F18455 /* PropertyWrapperTrend in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		CBE67E902C72483400F18455 /* Trends */ = {
 			isa = PBXGroup;
 			children = (
-				CBE67E912C72485900F18455 /* PropertyWrapperTrend */,
+				CBE67E9A2C725CE500F18455 /* PropertyWrapperTrend */,
 			);
 			path = Trends;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			);
 			name = SwiftTrends;
 			packageProductDependencies = (
-				CBE67E932C72509600F18455 /* PropertyWrapperTrend */,
+				CBE67E9B2C725D1000F18455 /* PropertyWrapperTrend */,
 			);
 			productName = SwiftTrends;
 			productReference = CBE67E7F2C7247DB00F18455 /* SwiftTrends.app */;
@@ -389,7 +389,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CBE67E932C72509600F18455 /* PropertyWrapperTrend */ = {
+		CBE67E9B2C725D1000F18455 /* PropertyWrapperTrend */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PropertyWrapperTrend;
 		};
