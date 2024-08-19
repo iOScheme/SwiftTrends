@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6D874F2C73952A0013A613 /* DynamicLookupTrend in Frameworks */ = {isa = PBXBuildFile; productRef = CB6D874E2C73952A0013A613 /* DynamicLookupTrend */; };
+		CBAF693E2C73958600087520 /* PropertyWrapperTrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF693C2C73958600087520 /* PropertyWrapperTrendView.swift */; };
 		CBE67E832C7247DB00F18455 /* SwiftTrendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE67E822C7247DB00F18455 /* SwiftTrendsApp.swift */; };
 		CBE67E852C7247DB00F18455 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE67E842C7247DB00F18455 /* MainView.swift */; };
 		CBE67E872C7247DD00F18455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE67E862C7247DD00F18455 /* Assets.xcassets */; };
 		CBE67E8A2C7247DD00F18455 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE67E892C7247DD00F18455 /* Preview Assets.xcassets */; };
-		CBE67E982C72511200F18455 /* PropertyWrapperTrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE67E972C72511200F18455 /* PropertyWrapperTrendView.swift */; };
 		CBE67E9C2C725D1000F18455 /* PropertyWrapperTrend in Frameworks */ = {isa = PBXBuildFile; productRef = CBE67E9B2C725D1000F18455 /* PropertyWrapperTrend */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB94C5872C739283006EE8E3 /* DynamicLookupTrend */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DynamicLookupTrend; path = SwiftTrends/DynamicLookupTrend; sourceTree = SOURCE_ROOT; };
+		CBAF693C2C73958600087520 /* PropertyWrapperTrendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyWrapperTrendView.swift; sourceTree = "<group>"; };
 		CBE67E7F2C7247DB00F18455 /* SwiftTrends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTrends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE67E822C7247DB00F18455 /* SwiftTrendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTrendsApp.swift; sourceTree = "<group>"; };
 		CBE67E842C7247DB00F18455 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CBE67E862C7247DD00F18455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBE67E892C7247DD00F18455 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CBE67E972C72511200F18455 /* PropertyWrapperTrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperTrendView.swift; sourceTree = "<group>"; };
 		CBE67E9A2C725CE500F18455 /* PropertyWrapperTrend */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PropertyWrapperTrend; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -30,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6D874F2C73952A0013A613 /* DynamicLookupTrend in Frameworks */,
 				CBE67E9C2C725D1000F18455 /* PropertyWrapperTrend in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBAF693D2C73958600087520 /* PropertyWrapperTrend */ = {
+			isa = PBXGroup;
+			children = (
+				CBAF693C2C73958600087520 /* PropertyWrapperTrendView.swift */,
+			);
+			path = PropertyWrapperTrend;
+			sourceTree = "<group>";
+		};
 		CBE67E762C7247DB00F18455 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +89,7 @@
 		CBE67E902C72483400F18455 /* Trends */ = {
 			isa = PBXGroup;
 			children = (
+				CB94C5872C739283006EE8E3 /* DynamicLookupTrend */,
 				CBE67E9A2C725CE500F18455 /* PropertyWrapperTrend */,
 			);
 			path = Trends;
@@ -93,17 +105,9 @@
 		CBE67E952C7250F300F18455 /* TrendsViews */ = {
 			isa = PBXGroup;
 			children = (
-				CBE67E962C7250FD00F18455 /* PropertyWrapper */,
+				CBAF693D2C73958600087520 /* PropertyWrapperTrend */,
 			);
 			path = TrendsViews;
-			sourceTree = "<group>";
-		};
-		CBE67E962C7250FD00F18455 /* PropertyWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				CBE67E972C72511200F18455 /* PropertyWrapperTrendView.swift */,
-			);
-			path = PropertyWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +128,7 @@
 			name = SwiftTrends;
 			packageProductDependencies = (
 				CBE67E9B2C725D1000F18455 /* PropertyWrapperTrend */,
+				CB6D874E2C73952A0013A613 /* DynamicLookupTrend */,
 			);
 			productName = SwiftTrends;
 			productReference = CBE67E7F2C7247DB00F18455 /* SwiftTrends.app */;
@@ -179,7 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE67E982C72511200F18455 /* PropertyWrapperTrendView.swift in Sources */,
+				CBAF693E2C73958600087520 /* PropertyWrapperTrendView.swift in Sources */,
 				CBE67E852C7247DB00F18455 /* MainView.swift in Sources */,
 				CBE67E832C7247DB00F18455 /* SwiftTrendsApp.swift in Sources */,
 			);
@@ -389,6 +394,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CB6D874E2C73952A0013A613 /* DynamicLookupTrend */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DynamicLookupTrend;
+		};
 		CBE67E9B2C725D1000F18455 /* PropertyWrapperTrend */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PropertyWrapperTrend;
