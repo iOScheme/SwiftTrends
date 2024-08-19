@@ -1,5 +1,6 @@
 # Usage.
-It enables you to acces other data structure as an dicctionary.
+It enables you to access child data attriutes from an parent container without referening to the child data structure.
+
 Example:
 ```swift
  public struct Exercise {
@@ -15,7 +16,8 @@ Example:
         let exercise: Exercise
         
         subscript<T>(dynamicMember keypath: KeyPath<Exercise, T>) -> T {
-            return exercise[keyPath: keypath] ///-> This lets you acces any attribute on Exercise type as it would be an dicctionary
+            return exercise[keyPath: keypath] ///
+            /// PreattyNeat dicctionary like access
         }
     }
 
