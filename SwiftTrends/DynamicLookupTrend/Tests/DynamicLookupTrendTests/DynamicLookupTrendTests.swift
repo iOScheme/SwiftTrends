@@ -35,9 +35,9 @@ final class DynamicLookupTrendTests: XCTestCase {
         let exercise = Exercise(reps: 1, name: "bench press", weight: 60, rest: "2 min", superSet: superSet)
         let routine = Routine(name: "chest", exercise: exercise)
         print(routine.reps)
-        print(routine.superSetOnlyValue)
+//        print(routine.superSetOnlyValue)
         
         routine.exercise.reps
-        
+
     }
 }
